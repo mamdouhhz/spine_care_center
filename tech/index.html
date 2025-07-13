@@ -50,7 +50,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel="stylesheet" id="elementor-post-6-css" href="/wp-content/uploads/elementor/css/post-6.css?ver=1752350232" type="text/css" media="all">
 <link rel="stylesheet" id="widget-spacer-css" href="/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.30.2" type="text/css" media="all">
 <link rel="stylesheet" id="widget-heading-css" href="/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.30.2" type="text/css" media="all">
-<link rel="stylesheet" id="elementor-post-75-css" href="/wp-content/uploads/elementor/css/post-75.css?ver=1752350239" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-75-css" href="/wp-content/uploads/elementor/css/post-75.css?ver=1752400248" type="text/css" media="all">
 <link rel="stylesheet" id="ekit-widget-styles-css" href="/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.5.4" type="text/css" media="all">
 <link rel="stylesheet" id="ekit-responsive-css" href="/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.5.4" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-gf-local-roboto-css" href="/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1743768475" type="text/css" media="all">
@@ -2253,6 +2253,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       max-width: 45%;
       max-height: 80%;
       overflow: auto;
+      text-align: center;
     }
     .close-button {
       position: absolute;
@@ -2268,6 +2269,11 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       justify-content: center;
       cursor: pointer;
       font-size: 20px;
+    }
+    .no-video-message {
+      padding: 20px;
+      font-size: 18px;
+      color: #666;
     }</style>
 
 
@@ -2290,7 +2296,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       <!-- MUA -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-user-injured"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">تقويم العمود الفقري (MUA)</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">تقويم العمود الفقري (MUA)</h2>
         <p class="text-sm text-center text-gray-600">إجراء تحت تخدير لتحسين الحركة باستخدام الأشعة.</p>
       </div>
 
@@ -2304,56 +2310,56 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       <!-- Nerve Root Block -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-brain"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.spine-health.com/embed/video/cervical-selective-nerve-root-block-video')">حقن جذور الأعصاب</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">حقن جذور الأعصاب</h2>
         <p class="text-sm text-center text-gray-600">علاج موضعي لتقليل التهاب الأعصاب وآلامها.</p>
       </div>
 
       <!-- PRP Injection -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-vials"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://my.viewmedica.com/embed/share/3275/en/A_0307a991')">حقن البلازما</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">حقن البلازما</h2>
         <p class="text-sm text-center text-gray-600">علاج بالبلازما الغنية بالصفائح لعلاج المفاصل والأوتار.</p>
       </div>
 
       <!-- Spinal Canal Decompression -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-arrows-alt"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">توسيع القناة العصبية</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">توسيع القناة العصبية</h2>
         <p class="text-sm text-center text-gray-600">فتح القناة العصبية لتخفيف الضغط العصبي وتحسين الحركة.</p>
       </div>
 
       <!-- Disc Herniation -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-dna"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">العصب الخامس</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">العصب الخامس</h2>
         <p class="text-sm text-center text-gray-600">علاج حالات الألم الحاد الناتج عن العصب الخامس باستخدام تقنيات متقدمة للتخفيف من الألم وتحسين جودة الحياة.</p>
       </div>
 
       <!-- Chronic Back/Neck Pain -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-spine"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">الصداع المزمن</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">الصداع المزمن</h2>
         <p class="text-sm text-center text-gray-600">تقديم علاجات متنوعة للتخفيف من الصداع المزمن من خلال العلاج الدوائي والعلاج الطبيعي.</p>
       </div>
 
       <!-- Spondylolisthesis -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-x-ray"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">خشونة الركبتين والفخذين</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">خشونة الركبتين والفخذين</h2>
         <p class="text-sm text-center text-gray-600">علاج التهابات المفاصل وتحسين القدرة الحركية للأشخاص الذين يعانون من خشونة الركبتين والفخذين باستخدام تقنيات مختلفة مثل العلاج الطبيعي.</p>
       </div>
 
       <!-- Sciatica -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-running"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">أمراض الكتفين</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">أمراض الكتفين</h2>
         <p class="text-sm text-center text-gray-600">تقديم العلاجات المناسبة لمشاكل الكتف مثل التمزقات أو التهابات الأوتار والعضلات لتحسين الراحة والمرونة.</p>
       </div>
 
       <!-- Spinal Stenosis -->
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition-transform hover:-translate-y-1">
         <div class="text-5xl mb-4 text-center icon-custom"><i class="fas fa-compress"></i></div>
-        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('https://www.youtube.com/embed/dQw4w9WgXcQ')">الشوكة العظمية</h2>
+        <h2 class="text-xl font-semibold text-center mb-2 cursor-pointer" onclick="openModal('')">الشوكة العظمية</h2>
         <p class="text-sm text-center text-gray-600">استخدام العلاجات لتخفيف الألم الناتج عن الشوكة العظمية في الكعب وتحسين قدرة الحركة.</p>
       </div>
     </div>
@@ -2362,23 +2368,42 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
   <!-- Modal for video -->
   <div id="videoModal" class="modal">
     <div class="modal-content">
-      <span class="close-button" onclick="closeModal()">&times;</span>
-      <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+      <span class="close-button" onclick="closeModal()">×</span>
+      <iframe id="videoFrame" width="560" height="315" src="" frameborder="0" allowfullscreen class="hidden"></iframe>
+      <div id="noVideoMessage" class="no-video-message hidden">لا يوجد فيديو متاح</div>
     </div>
   </div>
 
   <script>function openModal(videoUrl) {
       const modal = document.getElementById('videoModal');
       const videoFrame = document.getElementById('videoFrame');
-      videoFrame.src = videoUrl;
+      const noVideoMessage = document.getElementById('noVideoMessage');
+      
+      if (videoUrl) {
+        videoFrame.src = videoUrl;
+        videoFrame.classList.remove('hidden');
+        noVideoMessage.classList.add('hidden');
+      } else {
+        videoFrame.src = '';
+        videoFrame.classList.add('hidden');
+        noVideoMessage.classList.remove('hidden');
+      }
+      
       modal.style.display = 'flex';
     }
 
     function closeModal() {
       const modal = document.getElementById('videoModal');
       const videoFrame = document.getElementById('videoFrame');
+      const noVideoMessage = document.getElementById('noVideoMessage');
+      
       videoFrame.src = ''; // Stop video by clearing source
+      videoFrame.classList.add('hidden');
+      noVideoMessage.classList.add('hidden');
       modal.style.display = 'none';
+      
+      // Prevent default scroll behavior
+      event.preventDefault();
     }
 
     // Close modal when clicking outside
